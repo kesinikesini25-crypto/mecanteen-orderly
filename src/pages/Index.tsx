@@ -68,8 +68,13 @@ export default function Index() {
         
         <div className="relative container h-full flex items-center">
           <div className="max-w-2xl space-y-6">
-            <Badge className="bg-accent text-accent-foreground">
-              Madras Engineering College
+            <Badge className="bg-white text-foreground shadow-sm">
+              <img
+                src="https://www.madrascollege.ac.in/v1.0.1/bucket/mec-big-logo.png"
+                alt="Madras Engineering College"
+                className="h-8 w-auto object-contain"
+              />
+              <span className="sr-only">Madras Engineering College</span>
             </Badge>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Order Your Favorite{' '}
